@@ -1,0 +1,10 @@
+[
+    {
+        "name": "暮下孤星",
+        "message": "新手做的很粗糙的一个没有用数据库的留言板，只能实现简单的留言。"
+    },
+    {
+        "name": "AloneStar",
+        "message": "思路参考原博文地址http://lifeislikeaboat.com/node-js-messageboard/?utm_source=tuicool&utm_medium=referral"
+    }
+]

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>留言板</title>
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body >
+  <div class="title">
+    <h1>暮下孤星的留言板</h1>
+  </div>
+  <div class="form">
+    <form method="post" action="/" name="form" >
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon" id="sizing-addon1">名字</span>
+        <input type="text" class="form-control" placeholder="你的名字" name="name" >
+      </div>
+      <p>
+        留言：
+      </p>
+      <textarea id="msg" placeholder="请留言" name="message"></textarea>
+      <input  type="submit" value="发表留言" id="submit" onclick="submit()">
+    </form>
+  </div>
+  <div id="error"> <%= error %> <%= success %></div>
+  <% for(var i= name.length-1; i>=0; i--) { %>
+    <hr />
+    <div id="message">
+      <span id="name"><%= name[i] %>:</span>
+      <span id="content"><%= message[i] %></span>
+    </div>
+   <% } %>
+</body>
+</html>

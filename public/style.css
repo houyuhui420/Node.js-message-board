@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+body{
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+
+.title{
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(47, 164, 222)
+}
+
+.title h1{
+  text-align: center;
+}
+
+.form{
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  margin-top: 20px;
+}
+
+.input-group{
+  width: 400px;
+  margin-left: 190px;
+}
+
+#sizing-addon1{
+  color: rgb(47, 164, 222)
+}
+
+#msg{
+  width: 400px;
+  margin-left: 190px;
+  margin-top: 1px;
+  height: 200px;
+}
+
+.form p{
+  margin-left: 190px;
+  margin-top: 15px;
+  color: rgb(47, 164, 222)
+}
+
+#submit{
+  margin-left: 190px;
+color: rgb(47, 164, 222)
+}
+
+#message{
+  float: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+#name{
+  color: rgb(200, 10, 50);
+  font-size: 200%;
+
+}
+
+#error{
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right:  auto;
+  color: rgb(32, 176, 9);
+  font-size: 180%;
+  width: 400px;
+  text-align: center;
+}
